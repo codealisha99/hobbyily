@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Navigation */
+.navbar {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.nav-link {
+    color: purple;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #0047AB;
+    color: white;
+    padding: 50px 0;
+}
+
+.hero-box {
+    border: 2px solid white;
+    display: inline-block;
+    padding: 40px;
+}
+
+.hero-text {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* Choose Your Hobbies */
+.hobbies {
+    background-color: white;
+    padding: 30px 0;
+}
+
+.hobbies h2 {
+    color: #B22222;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.hobby-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    justify-content: center;
+    max-width: 500px;
+    margin: auto;
+}
+
+.hobby-item {
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Hobby Colors */
+.purple { background-color: #6A0DAD; }
+.blue { background-color: #1E40AF; }
+.red { background-color: #D90429; }
+.green { background-color: #2E8B57; }
+.yellow { background-color: #FFB703; }
+.dark-red { background-color: #8B0000; }
