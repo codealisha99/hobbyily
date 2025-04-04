@@ -7,7 +7,7 @@ body {
     background-color: #f8f8f8;
 }
 
-/* Navigation */
+
 .navbar {
     background-color: white;
     padding: 15px;
@@ -22,7 +22,7 @@ body {
     font-weight: bold;
 }
 
-/* Hero Section */
+
 .hero {
     background-color: #0047AB;
     color: white;
@@ -39,15 +39,21 @@ body {
     font-size: 18px;
     line-height: 1.8;
 }
+.dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
 
-/* Choose Your Hobbies */
+
 .hobbies {
     background-color: white;
     padding: 30px 0;
 }
 
 .hobbies h2 {
-    color: #B22222;
+    color: #B60071;
     font-size: 20px;
     margin-bottom: 20px;
 }
@@ -70,10 +76,22 @@ body {
     text-align: center;
 }
 
-/* Hobby Colors */
+
 .purple { background-color: #6A0DAD; }
 .blue { background-color: #1E40AF; }
 .red { background-color: #D90429; }
 .green { background-color: #2E8B57; }
 .yellow { background-color: #FFB703; }
 .dark-red { background-color: #8B0000; }
+
+.tv-shows {
+    background-color: #0047AB;
+    color: white;
+    padding: 30px 0;
+}
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
